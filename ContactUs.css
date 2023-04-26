@@ -1,0 +1,80 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.naviContact
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logoContact
+{
+    margin: 10px;
+}
+
+
+.navbarConatct ul
+{
+  display: flex;
+  gap: 100px;
+}
+
+.navbarConatct ul li
+{
+    list-style: none;
+    margin-right: 10px;
+}
+
+.navbarConatct ul li a
+{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+.navbarConatct ul li a:hover
+{
+    text-decoration: underline;
+    color: blue;
+    cursor: pointer;
+}
+
+main
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact
+{
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    border: 2px solid black;
+    margin-top: 100px;
+    width: 300px;
+    height: 400px;
+    background-color: #a2a2d1;
+}
+
+h1
+{
+    margin-left: 45px;
+    margin-bottom: 20px;
+    
+}
+
+button
+{
+    height: 30px;
+    width: 70px;
+    margin-top: 15px;
+    margin-left: 105px;
+    border-radius: 10px;
+}

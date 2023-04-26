@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: "IBM Plex Sans", sans-serif;
+    background-color: #f0f4f5;
+  }
+
+  .navi
+  {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .logo
+  {
+    margin: 10px;
+  }
+
+  a
+  {
+    color: black;
+  }
+
+  ul
+  {
+    margin-right: 10px;
+  }
+
+  .navbar ul
+  {
+    display: flex;
+    gap: 100px;
+    justify-content: space-around;
+    align-items: center;
+    
+  
+  }
+
+  .navbar ul li
+  {
+   
+   list-style: none;
+   
+   
+  }
+
+  .navbar ul a
+  {
+    text-decoration: none;
+    font-weight: 600;
+  }
+
+  .navbar ul a:hover
+  {
+    text-decoration: underline;
+    color: red;
+    cursor: pointer;
+  }
+
+  main
+  {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+ .bottomouse
+ {
+    margin-left: 650px;
+ }
+
+#appn
+{
+    height: 30px;
+    width: 180px;
+    border-radius: 10px;
+    font-weight: 600;
+    background-color: #04f458;
+    color: white;
+}
+
+#appn:hover
+{
+    font-weight: 800;
+    background-color: #d8deea;
+    color: black;
+}
